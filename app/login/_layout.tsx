@@ -1,5 +1,4 @@
 import { Stack } from "expo-router";
-import OnboardingScreen from "@/src/screens/onboarding-screen";
 
 export default function RootLayout() {
   return <Stack  screenOptions={{ headerShown: false }}/>;
