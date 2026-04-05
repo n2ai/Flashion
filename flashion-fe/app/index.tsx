@@ -42,14 +42,14 @@ export default function Index() {
   const handleNext = ():void=>{
     let nextSlide = currentSlide + 1;
     if(nextSlide === 3){
-      router.replace("/login");
+      router.replace("/(auth)" );
     }else{
       setCurrentSlide(nextSlide)
     }
   }
 
   const handleSkip = (): void => {
-    router.replace("/login");
+    router.replace("/(auth)");
   };
 
   const styles = StyleSheet.create({
